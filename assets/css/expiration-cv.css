@@ -1,0 +1,18 @@
+.expiration-cv{
+    display: inline-block;
+    width: 30%;
+}
+
+.expiration-cv span{
+    width: 100%;
+}
+
+.expiration-cv input{
+    width: 100%;
+    padding: 0.1rem 0.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 1px 0px 5px #000;
+    font-size: 16px;
+}
