@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Payment</title>
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/img/credit-card-icon.png" type="image/x-icon">
 
     <!--CSS Container-main-->
     <link rel="stylesheet" href="./assets/css/main-box.css">
@@ -89,11 +91,11 @@
         <div class="main-box">
             <div class="inputs-box">
                 <span>Card Number</span>
-                <input type="text">
+                <input type="text" maxlength="16" class="input-number-card">
             </div>
             <div class="inputs-box">
                 <span>Card Holder</span>
-                <input type="text">
+                <input type="text" class="input-holder-card">
             </div>
             <div class="date-form-box">
                 <div class="expiration-box">
@@ -146,5 +148,6 @@
             </div>
         </div>
     </main>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
