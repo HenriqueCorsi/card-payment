@@ -1,0 +1,86 @@
+@font-face {
+    font-family: visa;
+    src: url('../font/Libertad-ExtraBoldItalic.otf');
+}
+
+.front-card{
+    position: absolute;
+    width: 400px;
+    height: 220px;
+    margin: 5rem auto;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    transition: 700ms;
+    perspective: 700px;
+    z-index: 1;
+    background-color: #05509A;
+}
+
+.card-main-box:hover .front-card{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.front-card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    margin: 0.5rem auto;
+}
+
+.icon-chip{
+    width: 20%;
+}
+
+.title{
+    font-size: 35px;
+    font-family: visa;
+    color: #CFD0D2;
+}
+
+.number-card-box{
+    width: 90%;
+    margin: 1.7rem auto;
+}
+
+.number-card{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+.holder-information-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+ .card-holder-box span{
+    margin: 0 0 0 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+ }
+
+ .card-holder-box p{
+    margin: 1rem 0 0 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffff;
+ }
+
+.date-exp-box{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 1rem 3rem 0 0rem;
+}
+
+.mm, .yy{
+    font-family: A;
+    font-size: 20px;
+    color: #ffff;
+}
