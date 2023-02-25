@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Payment</title>
 
-    <!--CSS Header-->
-    <link rel="stylesheet" href="./assets/css/header.css">
 
     <!--CSS Container-main-->
     <link rel="stylesheet" href="./assets/css/box-main.css">
+
+    <!--CSS Card-main-box-->
+    <link rel="stylesheet" href="./assets/css/card-main-box.css">
+
+    <!--CSS Front-card.css-->
+    <link rel="stylesheet" href="./assets/css/front-card.css">
+
+    <!--CSS Back-card-->
+    <link rel="stylesheet" href="./assets/css/back-card.css">
 
     <!--CSS Container-inputs-->
     <link rel="stylesheet" href="./assets/css/inputs-box.css">
@@ -26,12 +33,58 @@
 
     <!--CSS Button-->
     <link rel="stylesheet" href="./assets/css/button.css">
+
+    <style>
+        body{
+            background-color: #000000
+            ;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Card Payment</h1>
-    </header>
     <main>
+        <div class="card-main-box">
+            <!-- FRONT CARD -->
+            <div class="front-card">
+                <div class="front-card-header">
+                    <div class="icon-box">
+                        <img class="icon-chip" src="./assets/img/chip-img.jpg" alt="">
+                    </div>
+                    <div class="title-box">
+                        <h3 class="title">Visa</h3>
+                    </div>
+                </div>
+                <div class="number-card-box">
+                    <p class="number-card">**************************</p>
+                </div>
+                <div class="holder-information-box">
+                    <div class="card-holder-box">
+                        <span>Card Holder</span>
+                        <p class="name-card">***************</p>
+                    </div>
+                    <div class="date-exp-box">
+                        <div class="mm-box">
+                            <p class="mm">mm</p>
+                        </div>
+                        <div class="yy-box">
+                            <p class="yy">yy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--BACK CARD-->
+            <div class="back-card">
+                <div class="black-box">
+                    .
+                </div>
+                <div class="desc-cv-box">
+                    <p class="desc-cv">CV</p>
+                </div>
+                <div class="white-box">
+                    <p class="get-cv"></p>
+                </div>
+            </div>
+        </div>
         <div class="box-main">
             <div class="inputs-box">
                 <span>Card Number</span>
