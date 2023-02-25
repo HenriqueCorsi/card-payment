@@ -3,7 +3,7 @@
     src: url('../font/Libertad-ExtraBoldItalic.otf');
 }
 
-.front-card{
+.card-front{
     position: absolute;
     width: 400px;
     height: 220px;
@@ -16,7 +16,7 @@
     background-color: #05509A;
 }
 
-.card-main-box:hover .front-card{
+.card-main-box:hover .card-front{
     transform: rotateY(-180deg);
     z-index: 0;
 }
@@ -30,7 +30,7 @@
     margin: 0.5rem auto;
 }
 
-.icon-chip{
+.chip-icon{
     width: 20%;
 }
 
@@ -40,24 +40,24 @@
     color: #CFD0D2;
 }
 
-.number-card-box{
+.card-number-box{
     width: 90%;
     margin: 1.7rem auto;
 }
 
-.number-card{
+.card-number{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffff;
 }
 
-.holder-information-box{
+.information-holder-box{
     display: flex;
     justify-content: space-between;
     width: 100%;
  }
 
- .card-holder-box span{
+ .holder-card-box span{
     margin: 0 0 0 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -65,14 +65,14 @@
     color: #ffff;
  }
 
- .card-holder-box p{
+ .holder-card-box p{
     margin: 1rem 0 0 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #ffff;
  }
 
-.date-exp-box{
+.date-box{
     display: flex;
     justify-content: space-between;
     width: 20%;

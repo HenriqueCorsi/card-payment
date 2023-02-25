@@ -1,4 +1,4 @@
-.back-card{
+.card-back{
     position: absolute;
     width: 400px;
     height: 220px;
@@ -11,16 +11,16 @@
     background-color: #05509A;
 }
 
+.card-main-box:hover .card-back{
+    transform: rotateY(0);
+    z-index: 1;
+}
+
 .black-box{
     width: 100%;
     margin: 2rem 0 0 0;
     padding: 1rem 0;
     background-color: #000;
-}
-
-.card-main-box:hover .back-card{
-    transform: rotateY(0);
-    z-index: 1;
 }
 
 .desc-cv{
