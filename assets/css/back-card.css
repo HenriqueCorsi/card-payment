@@ -1,0 +1,47 @@
+.back-card{
+    position: absolute;
+    width: 400px;
+    height: 220px;
+    margin: 5rem auto;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    transition: 700ms;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    background-color: #05509A;
+}
+
+.black-box{
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 1rem 0;
+    background-color: #000;
+}
+
+.card-main-box:hover .back-card{
+    transform: rotateY(0);
+    z-index: 1;
+}
+
+.desc-cv{
+    margin: 1rem 1.5rem 0 0;
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+.white-box{
+    width: 100%;
+    margin: 1rem 0 0 0;
+    padding: 1rem 0;
+    background-color: #ffffff;
+}
+
+.get-cv{
+    margin: 0rem 1.5rem 0 0;
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
