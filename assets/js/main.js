@@ -17,3 +17,14 @@ document.querySelector('.year-input').oninput = () =>{
     document.querySelector('.yy').innerText = 
     document.querySelector('.year-input').value;
 }
+
+document.querySelector('.cv-input').onmouseenter = () =>{
+    document.querySelector('.card-front').style.transform = 
+    'perspective(1000px) rotateY(-180deg)'
+    document.querySelector('.card-front').style.zIndex = '0'
+    document.querySelector('.card-back').style.transform = 
+    'perspective(1000px) rotateY(0deg)'
+    document.querySelector('.card-back').style.backfaceVisibility = 
+    'hidden'
+}
+
