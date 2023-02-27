@@ -28,3 +28,13 @@ document.querySelector('.cv-input').onmouseenter = () =>{
     'hidden'
 }
 
+document.querySelector('.cv-input').onmouseleave = () =>{
+    document.querySelector('.card-front').style.transform = 
+    'perspective(1000px) rotateY(0deg)'
+    document.querySelector('.card-back').style.transform = 
+    'perspective(1000px) rotateY(180deg)'
+    document.querySelector('.card-back').style.zIndex = '0'
+}
+
+
+
