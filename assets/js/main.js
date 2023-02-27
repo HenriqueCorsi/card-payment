@@ -36,5 +36,8 @@ document.querySelector('.cv-input').onmouseleave = () =>{
     document.querySelector('.card-back').style.zIndex = '0'
 }
 
-
+document.querySelector('.cv-input').oninput = () =>{
+    document.querySelector('.get-cv').innerText = 
+    document.querySelector('.cv-input').value
+}
 
